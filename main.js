@@ -4,7 +4,7 @@ button.addEventListener('click', function comparaNumeros (event) {
     let numA = document.getElementById('numA');
     let numB = document.getElementById('numB');
     
-    if(numB.value > numA.value) {
+    if(Number(numB.value) > Number(numA.value)) {
         alert(`Formulário válido: O número B (${numB.value}) é maior do que o número A (${numA.value})`)
     }
     else {
